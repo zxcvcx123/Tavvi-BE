@@ -1,0 +1,13 @@
+package com.tavvi.tavvi;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TavviApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
