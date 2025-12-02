@@ -1,5 +1,6 @@
 package com.tavvi.tavvi.test.controller;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping(value = "/test")
+@RequiredArgsConstructor
 public class TestController {
 
     @RequestMapping(value = "/1", method = RequestMethod.GET)

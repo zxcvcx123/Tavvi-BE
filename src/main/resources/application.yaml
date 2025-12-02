@@ -4,7 +4,7 @@ spring:
 
 # Auth 정보 불러오기
   config:
-    import: "classpath:./auth.yaml"
+    import: "classpath:auth.yaml"
 
   # DB
   datasource:
